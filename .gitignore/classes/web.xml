@@ -1,0 +1,99 @@
+<web-app>  
+
+    <servlet>
+        <servlet-name>starting_page</servlet-name>
+        <servlet-class>start</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>starting_page</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>user_signup_page</servlet-name>
+        <servlet-class>create_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user_signup_page</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>admin_signup_page</servlet-name>
+        <servlet-class>create_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_signup_page</servlet-name>
+        <url-pattern>/signup_admin</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>admin_login_page</servlet-name>
+        <servlet-class>login_admin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_login_page</servlet-name>
+        <url-pattern>/login_admin</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>user_login_page</servlet-name>
+        <servlet-class>login_user</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user_login_page</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>user_option_page</servlet-name>
+        <servlet-class>user_navigation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>user_option_page</servlet-name>
+        <url-pattern>/user_options</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_option_page</servlet-name>
+        <servlet-class>admin_navigation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_option_page</servlet-name>
+        <url-pattern>/admin_options</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>book_tickets</servlet-name>
+        <servlet-class>passenger_details</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>book_tickets</servlet-name>
+        <url-pattern>/ticket_details</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>navigate_ticket_option</servlet-name>
+        <servlet-class>print_ticket</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>navigate_ticket_option</servlet-name>
+        <url-pattern>/print_ticket</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>adding_trains</servlet-name>
+        <servlet-class>add_trains</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adding_trains</servlet-name>
+        <url-pattern>/add_trains</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>last_page</servlet-name>
+        <servlet-class>admin_termination</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>last_page</servlet-name>
+        <url-pattern>/admin_termination</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
